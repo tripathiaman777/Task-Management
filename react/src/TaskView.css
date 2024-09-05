@@ -1,0 +1,40 @@
+.task-view-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  
+  .task-view-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 1rem;
+  }
+  
+  .task-view-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .task-view-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .task-view-status {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .task-view-loading {
+    font-size: 18px;
+    color: #999;
+  }
+  
