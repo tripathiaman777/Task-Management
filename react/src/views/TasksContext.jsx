@@ -7,7 +7,7 @@ export const TasksProvider = ({ children }) => {
   const [allTasks, setAllTasks] = useState([]);
   const [filterTask, setFilterTask] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [filter, setFilter] = useState("");
+  const [filter, handleFilter] = useState("");
 
   useEffect(() => {
     getTasks();
@@ -34,7 +34,7 @@ export const TasksProvider = ({ children }) => {
     allTasks,
     filterTask,
     loading,
-    setFilter, // Rename `handleFilter` to `setFilter` directly for simplicity
+    handleFilter,
     getTasks,
   };
 
